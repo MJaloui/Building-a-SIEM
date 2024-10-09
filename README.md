@@ -7,6 +7,7 @@ This project aims to develop an open-source Security Information and Event Manag
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
+- Building a SIEM
 - Advanced understanding of SIEM concepts and practical application.
 - Proficiency in analyzing and interpreting network logs.
 - Ability to generate and recognize attack signatures and patterns.
