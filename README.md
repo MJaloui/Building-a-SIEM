@@ -57,10 +57,16 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 
-11. Copy the ".deb" file to download the package
-12. Enter this command in the VM "sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb"
+11. Enter the command "sudo apt-get update" to ensure you have the latest package.
+12. Enter the command "apt-get install curl" to be able to be able to install deb. package.
+13. Copy the ".deb" file to download the package
+14. Enter this command in the VM "sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb" (the .deb file you have on your vm) 
 
-![image](https://github.com/user-attachments/assets/8cfa6b12-b03b-4f48-ab49-7b1f79009f4d)
+![image](https://github.com/user-attachments/assets/fe18dfcd-cd23-4896-a207-57e78be5c856)
+
+
+
+
 
 
 
