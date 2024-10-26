@@ -198,7 +198,9 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
+32. Verify you new created Index is there.
 
+![image](https://github.com/user-attachments/assets/d495cb00-c75e-42a8-b93c-e76d5ae014a8)
 
 
 
