@@ -138,20 +138,33 @@ Enter "ip a" or "ipconfig" to view IP
     
 ![image](https://github.com/user-attachments/assets/b5f94a0f-6c8d-4be8-b27f-973d2fff7336)
 
-
-
-
-
-25. 
-
 ![image](https://github.com/user-attachments/assets/924a642c-d205-47e7-aa28-f4912fc630de)
 
 
 
 
 
+25. On the top navigation bar, click "Settings". Underneath "Data" click "Forwarding and receiving"
 
+![image](https://github.com/user-attachments/assets/54019fe4-1186-4ae8-854c-0ce1a2e31dcc)
 
-
+![image](https://github.com/user-attachments/assets/f90bb45e-d875-47b7-90d0-ad12a50fbf04)
 
     
+
+26. Click green button "New Recieving Port" on the top right.
+    In the "Listen on this port" text box, enter port number "9997" 
+
+![image](https://github.com/user-attachments/assets/f9613a1a-ce7f-4fb3-b31e-21e23f8fc164)
+
+![image](https://github.com/user-attachments/assets/33438ba8-167c-4fb5-ae32-8b710c8e2bae)
+
+
+
+
+
+27.
+
+
+
+
