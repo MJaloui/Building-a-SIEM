@@ -134,11 +134,17 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
+24. Open up a browser and enter Splunk web interface credentials "IPADRRESS:8000"
+    
+![image](https://github.com/user-attachments/assets/b5f94a0f-6c8d-4be8-b27f-973d2fff7336)
 
 
 
 
 
+25. 
+
+![image](https://github.com/user-attachments/assets/924a642c-d205-47e7-aa28-f4912fc630de)
 
 
 
