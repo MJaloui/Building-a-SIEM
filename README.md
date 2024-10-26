@@ -89,7 +89,34 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 
+18. Enter command to allow SSH port on firewall.
+(If "sudo ufw alow openSSH" doesn't work then try "sudo ufw allow 22/tcp")
 
+![image](https://github.com/user-attachments/assets/4d707e8b-c57d-48d3-958c-c22ac6375af9)
+
+
+
+
+19. Enter command to allow port 8000 on firewall.
+
+![image](https://github.com/user-attachments/assets/dc567b53-5dc7-44d0-b82b-b2ac19270b36)
+
+
+
+
+20. Enter command to enable firewall.
+
+![image](https://github.com/user-attachments/assets/5bd42993-b8e2-4344-b85f-31921b8ab54d)
+
+
+
+
+21. Enter command to find your IP address.
+Enter "ip a" or "ipconfig" to view IP
+
+![image](https://github.com/user-attachments/assets/38163049-75dc-459f-aeeb-8bab62f26493)
+
+    
 
 
 
