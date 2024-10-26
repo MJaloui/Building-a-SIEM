@@ -73,8 +73,37 @@ This project aims to develop an open-source Security Information and Event Manag
 
 ![image](https://github.com/user-attachments/assets/e8b46275-a67c-4998-bb5e-85cb35c83320)
 
+![image](https://github.com/user-attachments/assets/71467f21-a47d-4d59-98f2-1c9ed78c8df2)
 
 
 
 
-17. select username and password to log in
+
+17. select username and password to log in Splunk Enterprise from the browser.
+
+![image](https://github.com/user-attachments/assets/a4c236f7-141f-4d34-94ec-0e609c8c813e)
+
+![image](https://github.com/user-attachments/assets/3893ef76-96bf-470e-9850-d95d6ab34a6d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
