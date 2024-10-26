@@ -90,7 +90,7 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 18. Enter command to allow SSH port on firewall.
-(If "sudo ufw alow openSSH" doesn't work then try "sudo ufw allow 22/tcp")
+    (If "sudo ufw alow openSSH" doesn't work then try "sudo ufw allow 22/tcp")
 
 ![image](https://github.com/user-attachments/assets/4d707e8b-c57d-48d3-958c-c22ac6375af9)
 
@@ -99,7 +99,7 @@ This project aims to develop an open-source Security Information and Event Manag
 
 19. Enter command to allow port 8000 on firewall.
 
-![image](https://github.com/user-attachments/assets/dc567b53-5dc7-44d0-b82b-b2ac19270b36)
+![image](https://github.com/user-attachments/assets/054e0b6c-0da1-4d95-928a-60c6440d12aa)
 
 
 
@@ -116,7 +116,22 @@ Enter "ip a" or "ipconfig" to view IP
 
 ![image](https://github.com/user-attachments/assets/38163049-75dc-459f-aeeb-8bab62f26493)
 
+
+
+
+22. Enter command to start splunk.
+
+![image](https://github.com/user-attachments/assets/51d0058d-721f-4c81-9807-62da2a6c6049)
+
+
+
     
+23. After start command is submitted, you will recieve web browser credentials for Splunk web interface.
+    (http://MJBuildsSIEM:8000) or (http:INSERTIPADDRESS:8000)
+
+![image](https://github.com/user-attachments/assets/a133cb0f-0ab0-45e1-bddd-7d1e7d5f3779)
+
+
 
 
 
