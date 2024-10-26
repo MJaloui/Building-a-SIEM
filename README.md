@@ -162,8 +162,61 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
+27. Verify your new added port is there and set to "Enabled".
 
-27.
+  ![image](https://github.com/user-attachments/assets/1dede8fd-a32a-4831-b0a0-64b74b17ec59)
+
+
+
+
+28. Click "Settings" and under "Data" click "Indexes"
+
+![image](https://github.com/user-attachments/assets/0921d5fb-42a5-4e2e-a7f0-4104fbc416f0)
+
+![image](https://github.com/user-attachments/assets/3f08966e-81e3-4432-a395-d1e9031f6202)
+
+
+
+
+
+29. On the top right, click the green button "New Index"
+
+ ![image](https://github.com/user-attachments/assets/0e29c4b8-8514-41d8-8a94-ba821f974085)
+   
+![image](https://github.com/user-attachments/assets/44a761ba-861c-4a89-9bcc-b80f30b0a264)
+
+
+
+
+
+30. In the "Index Name" field, enter in the text box "wineventlog" (or any name you want to name it).
+31. Click "Save".
+
+![image](https://github.com/user-attachments/assets/880c2b11-dfc6-4373-944a-f59e23e7a18f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
