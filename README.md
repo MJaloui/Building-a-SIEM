@@ -198,9 +198,151 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-32. Verify you new created Index is there.
+32. Verify the new created Index is there.
 
 ![image](https://github.com/user-attachments/assets/d495cb00-c75e-42a8-b93c-e76d5ae014a8)
+
+
+
+
+33. Open a browser, log into your account on splunk.com to download Splunk Universal Forwarder.
+34. After signing in, click "Products' on the top bar.
+    
+![image](https://github.com/user-attachments/assets/73d1571f-5af2-4067-97b2-f8a7ffdd509f)
+
+
+
+
+35. Underneath "products" click "Free Trials & Downloads".
+
+![image](https://github.com/user-attachments/assets/4a495655-4e10-4ee8-80a0-492d966e47d2)
+
+
+
+
+36. Underneath "Splunk Enterprise" click "Get My Free Trial". 
+
+![image](https://github.com/user-attachments/assets/3bd0dcaa-0587-4287-9c16-69609b00045a)
+
+
+
+
+37. Choose your installation package under Linux for the deb. package, click "Copy wget link" to copy the link in the textbox.
+
+![image](https://github.com/user-attachments/assets/6537af72-8021-49f4-a563-17d82f9bab84)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
