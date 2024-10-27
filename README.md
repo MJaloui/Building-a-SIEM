@@ -282,18 +282,26 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-Open Splunk enterprise
+42. Log into Splunk Enterprise interface on your browser.
+43. on the top navigation bar, click "Settings" and then "Add Data" on the top left.
+
+![image](https://github.com/user-attachments/assets/a3b14f4a-d85e-4159-8039-f6f75037aa9f)
 
 
 
 
 
+44. On the bottom right, click "Forward".
+
+![image](https://github.com/user-attachments/assets/f1dd7838-b7ad-4b7b-b1c1-389b549e3b38)
+
+![image](https://github.com/user-attachments/assets/0162bcdd-9915-4844-8621-e954cf361ac7)
 
 
 
 
 
-
+45. 
 
 
 
