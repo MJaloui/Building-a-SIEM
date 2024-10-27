@@ -35,7 +35,7 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 
-8. For the Linux OS click "Copy wget link" for the ".deb" package.
+7. For the Linux OS click "Copy wget link" for the ".deb" package.
  
 ![image](https://github.com/user-attachments/assets/71fa5e98-4f97-48fc-92ef-4e76e1e67fb5)
 
@@ -43,32 +43,32 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 
-9. Paste the copied wget command into the VM.
+8. Paste the copied wget command into the VM.
 
 ![image](https://github.com/user-attachments/assets/da396f25-74d8-44f3-8fd8-8ce135846260)
 
 
 
 
-10. In the VM enter "ls" to verify you have your ".deb" package file.
+9. In the VM enter "ls" to verify you have your ".deb" package file.
 
 ![image](https://github.com/user-attachments/assets/6c195896-5bc8-42f2-b3f3-f5ef31ba0f6e)
 
 
 
 
-11. Enter the command "sudo apt-get update" to ensure you have the latest package.
-12. Enter the command "apt-get install curl" to be able to be able to install deb. package.
-13. Copy the ".deb" file to download the package.
-14. Enter this command in the VM "sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb" (the .deb file you have on your vm).
+10. Enter the command "sudo apt-get update" to ensure you have the latest package.
+11. Enter the command "apt-get install curl" to be able to be able to install deb. package.
+12. Copy the ".deb" file to download the package.
+13. Enter this command in the VM "sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb" (the .deb file you have on your vm).
 
 ![image](https://github.com/user-attachments/assets/fe18dfcd-cd23-4896-a207-57e78be5c856)
 
 
 
 
-15. Enter the command to enable start at boot.
-17. This will also prompt the Splunk license agreement .
+14. Enter the command to enable start at boot.
+15. This will also prompt the Splunk license agreement .
 16. Enter "y" to agree
 
 ![image](https://github.com/user-attachments/assets/e8b46275-a67c-4998-bb5e-85cb35c83320)
@@ -198,38 +198,98 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-32. Verify the new created Index is there.
+31. Verify the new created Index is there.
 
 ![image](https://github.com/user-attachments/assets/d495cb00-c75e-42a8-b93c-e76d5ae014a8)
 
 
 
 
-33. Open a browser, log into your account on splunk.com to download Splunk Universal Forwarder.
-34. After signing in, click "Products' on the top bar.
+32. Open a browser, log into your account on splunk.com to download Splunk Universal Forwarder.
+33. After signing in, click "Products' on the top bar.
     
 ![image](https://github.com/user-attachments/assets/73d1571f-5af2-4067-97b2-f8a7ffdd509f)
 
 
 
 
-35. Underneath "products" click "Free Trials & Downloads".
+34. Underneath "products" click "Free Trials & Downloads".
 
 ![image](https://github.com/user-attachments/assets/4a495655-4e10-4ee8-80a0-492d966e47d2)
 
 
 
 
-36. Underneath "Splunk Enterprise" click "Get My Free Trial". 
+
+35. Underneath "Splunk Enterprise" click "Get My Free Trial". 
 
 ![image](https://github.com/user-attachments/assets/3bd0dcaa-0587-4287-9c16-69609b00045a)
 
 
 
 
-37. Choose your installation package under Linux for the deb. package, click "Copy wget link" to copy the link in the textbox.
+
+36. Choose your installation package under Linux for the deb. package, click "Copy wget link" to copy the link in the textbox.
 
 ![image](https://github.com/user-attachments/assets/6537af72-8021-49f4-a563-17d82f9bab84)
+
+
+
+
+ 
+37. Enter the copied link in the VM. 
+
+![image](https://github.com/user-attachments/assets/272028f3-488c-4417-a557-800b0dec751f)
+
+![image](https://github.com/user-attachments/assets/f3dbc209-2758-47d3-b27f-c72202011d6f)
+
+
+
+
+
+38. Enter the command to install .deb package.
+
+![image](https://github.com/user-attachments/assets/e386b4b8-c40d-42f8-94f0-f8e03c688d07)
+
+![image](https://github.com/user-attachments/assets/8136d956-cc6a-4a49-8439-322b38abf2f4)
+
+
+
+
+
+39.  Enter the command "sudo apt-get install -f" to fix any broken dependencies from installations.
+
+![image](https://github.com/user-attachments/assets/886bbacf-b66c-4bbc-b8c5-4b0a89d3aff3)
+
+
+
+
+
+40.  Enter command to start the splunk forwarder.
+
+![image](https://github.com/user-attachments/assets/f9d13bdf-9e72-426d-901c-953cb2a13875)
+
+
+
+
+
+41. After forwarder is started you will be prompt to answer yes or no to the lisense agreement.
+    Enter in  "y" to agree.
+
+![image](https://github.com/user-attachments/assets/adc181fe-936b-4a17-bd1f-7a5d990e9e2e)
+
+
+
+
+
+Open Splunk enterprise
+
+
+
+
+
+
+
 
 
 
