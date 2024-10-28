@@ -189,7 +189,8 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-30. In the "Index Name" field, enter in the text box "wineventlog" (or any name you want to name it).
+30. In the "Index Name" field, enter in the text box "wineventlog" (or any name 
+    you want to name it).
 31. Click "Save".
 
 ![image](https://github.com/user-attachments/assets/880c2b11-dfc6-4373-944a-f59e23e7a18f)
@@ -205,7 +206,8 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-32. Open a browser, log into your account on splunk.com to download Splunk Universal Forwarder.
+32. Open a browser, log into your account on splunk.com to download Splunk 
+    Universal Forwarder.
 33. After signing in, click "Products' on the top bar.
     
 ![image](https://github.com/user-attachments/assets/73d1571f-5af2-4067-97b2-f8a7ffdd509f)
@@ -229,7 +231,8 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-36. Choose your installation package under Linux for the deb. package, click "Copy wget link" to copy the link in the textbox.
+36. Choose your installation package under Linux for the deb. package, click 
+    "Copy wget link" to copy the link in the textbox.
 
 ![image](https://github.com/user-attachments/assets/6537af72-8021-49f4-a563-17d82f9bab84)
 
@@ -301,7 +304,89 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-45. 
+45. Click on your available host under "Available host(s) to move it to "selected host(s). 
+
+![image](https://github.com/user-attachments/assets/488d4dee-6e64-499b-9835-342717613689)
+
+![image](https://github.com/user-attachments/assets/d1a62aad-36ad-4ee1-98f8-bbeea83acee9)
+
+
+
+46. Enter 'New Server Class Name" in the text box and then click "Next" in the top right.
+
+![image](https://github.com/user-attachments/assets/dc80e486-775d-4ef0-bd5b-97bd3d70603e)
+
+![image](https://github.com/user-attachments/assets/56d7dad2-1066-43de-b81b-13d3bf6f4ab4)
+
+
+
+
+
+47. If you not see "Local Event Logs" (see screenshot) as an option on the your list follow steps 48-51(permissions is required to view Local Event Logs). If you do see "Local Event Logs" continue with step 52. 
+
+![image](https://github.com/user-attachments/assets/47f13ddd-8b26-49b0-bb1e-3a3a0009e60f)
+
+
+
+
+
+48. On the top of the navigation bar click "Settings", underneath "Users And Authentication" click "Users". 
+
+![image](https://github.com/user-attachments/assets/3bd4753e-1c11-4c40-a2ee-487905d493ea)
+
+![image](https://github.com/user-attachments/assets/6356fffd-d8a9-40e6-8876-d867cec92fd2)
+
+
+
+
+
+49.) click on your name to add permissions.
+
+![image](https://github.com/user-attachments/assets/79566248-c432-44d5-a58c-9b3f98c67d77)
+
+
+
+
+50. Next to "Assign roles" click all items under "Available item(s)" to move 
+    over to "Selected item(s). All items should be under "Selected Items"
+    Click "Edit after changes are made"
+
+![image](https://github.com/user-attachments/assets/aa60170b-0315-4c0e-a9f2-563c1805921c)
+
+![image](https://github.com/user-attachments/assets/ff5f9a46-ab8e-451d-a875-b6418ac1dda2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
