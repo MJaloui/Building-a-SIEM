@@ -359,21 +359,48 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
+51. on the top navigation bar, click "Settings" and then "Add Data" on the top 
+    left.
+
+![image](https://github.com/user-attachments/assets/a3b14f4a-d85e-4159-8039-f6f75037aa9f)
 
 
 
 
 
+52. On the bottom right, click "Forward".
+
+![image](https://github.com/user-attachments/assets/f1dd7838-b7ad-4b7b-b1c1-389b549e3b38)
 
 
 
 
+53. Click on "Existing".
+
+![image](https://github.com/user-attachments/assets/ad72eaf1-f3db-4eda-b0d5-0436b44315e8)
+
+
+
+54. Under "Existing" Select your "Server Class" you created previously.
+    Click "Next" on the top right after selection in made.
+
+![image](https://github.com/user-attachments/assets/51e30828-c6e7-47a0-b21f-361085c96bac)
+
+![image](https://github.com/user-attachments/assets/42c910ff-69ad-48c3-8a6c-8026c3b8ad5c)
 
 
 
 
+55. Click "Local Event Logs", then click all event logs under "Available 
+    item(s)" to move over to "Selected item(s)" 
+    *Items to select: Application, ForwardedEvents, Security, Setup, System*
+     Click "Next" on the top right.
+    
+![image](https://github.com/user-attachments/assets/a34c440c-1c1b-409b-b2a5-a7208a42bb7f)
 
+![image](https://github.com/user-attachments/assets/2558457c-2880-4d1d-bcd6-bbbb3c242888)
 
+![image](https://github.com/user-attachments/assets/760c8816-234b-48c0-b863-776f5b8f7089)
 
 
 
