@@ -406,15 +406,27 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
+56. Select the Index you created under "Default".
+    Click "wineventlog"
+    Click "Review" on the top right.
+
+![image](https://github.com/user-attachments/assets/87cbd7a2-b45b-43e5-9f56-142304638d3c)
+
+    
+
+
+
+57. Click "Submit" after you've reviewed your selections. 
+   
+![image](https://github.com/user-attachments/assets/2b121b5d-84f8-4e40-ad3e-f1a77c2189f5)
 
 
 
 
 
+58.  After configuring the log forwarding settings, click 'Start Searching'
 
-
-
-
+![image](https://github.com/user-attachments/assets/f4419e3f-951c-4f4c-8566-e066648f07cd)
 
 
 
