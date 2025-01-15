@@ -14,12 +14,16 @@ This project aims to develop an open-source Security Information and Event Manag
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+## **Technologies**
+- **Linux**: The operating system for deploying and managing the SIEM system.
+- **Splunk Enterprise**: Core tool for log ingestion, analysis, and event correlation in the SIEM system.
+- **Splunk Universal Forwarder**: Tool for sending log data from remote systems to the Splunk server for processing.
+- **Ubuntu**: The operating system used for the server and log-generating systems.
+- **Network Analysis Tools**: Wireshark, tcpdump for network traffic capture and analysis.
+- **Programming Language**: Python for automation and scripting tasks.
+- **Log Management**: Techniques for organizing and managing logs efficiently within the SIEM system.
+- **Security Best Practices**: Following SIEM best practices for configuring Splunk, event correlation, and alerting.
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 
 
