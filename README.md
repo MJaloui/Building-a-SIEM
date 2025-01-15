@@ -5,7 +5,6 @@
 This project aims to develop an open-source Security Information and Event Management (SIEM) solution that efficiently collects, analyzes, and correlates security event data from diverse resources, enabling enhanced threat detection, incident response, and overall security posture. This project seeks to deliver flexible components, thorough documentation, and user-friendly interfaces to assist both beginner and advanced security professionals.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Building a SIEM
 - Advanced understanding of SIEM concepts and practical application.
