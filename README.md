@@ -1,4 +1,4 @@
-# Building a SIEM
+# Building a SIEM 🔍
 
 ## Objective
 
