@@ -26,7 +26,7 @@ This project aims to develop an open-source Security Information and Event Manag
 
 
 
-## **Setup Instructions** ➡️❗ [Click Here To View Detailed Visual Steps](https://github.com/MJaloui/Building-a-SIEM) ❗⬅️
+## **Setup Instructions** ➡️❗ [Click Here To View Detailed Visual Steps](https://github.com/MJaloui/Building-a-SIEM/blob/main/VisualStepsHere.md) ❗⬅️
 
 
 
