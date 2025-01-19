@@ -8,7 +8,7 @@
 
 &nbsp;
 
-## Steps
+## Steps:
 
 ### 1.	Head to splunk.com
 ### 2.	Click “products” above
