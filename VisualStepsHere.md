@@ -268,19 +268,70 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 ### 41. After forwarder is started you will be prompt to answer yes or no to the lisense agreement.
-    Enter in  "y" to agree.
+    Enter "y" to agree.
 
 ![image](https://github.com/user-attachments/assets/adc181fe-936b-4a17-bd1f-7a5d990e9e2e)
 
 
+### 42. Navigate to the local directory to create and edit the inputs.conf file in the Splunk Forwarder configuration directory: /opt/splunkforwarder/etc/system/local/.
+
+## Enter Cmd:
+
+``` bash
+sudo nano /opt/splunkforwarder/etc/system/local/inputs.conf
+```
+
+### 43. Copy the configuration below and paste it in the inputs.conf file, On your keyboard press "^X" (ctrl+x) to exit, then press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the right thing.
+
+## After saving this file, you can enter the command "sudo cat inputs.conf" command to verify it was saved.
+
+```bash
+[monitor:///var/log/syslog]
+disabled = false
+index = main
+sourcetype = syslog
+
+# listen for incoming TCP data on port 9998
+[tcp://9998]
+disabled = false
+sourcetype = _json
+index = network_data
+```
+
+![image](https://github.com/user-attachments/assets/9b1d186b-6d92-43c4-90a2-db73d732f71b)
+
+
+### 44. Create and edit output.conf. Copy and paste the configuration below.
+
+## Enter Cmd: 
+
+```bash
+sudo nano outputs.conf
+```
+
+## Copy and paster configuration
+
+```bash
+Enter the following script, then save and exit
+[tcpout]
+defaultGroup = splunk_indexer
+
+[tcpout:splunk_indexer]
+server = <indexer-ip>:9998
+```
+
+![image](https://github.com/user-attachments/assets/3cbd8a5f-57c3-4d40-8b28-e33d9ad6e2ef)
 
 
 
-### 42. Log into Splunk Enterprise interface on your browser.
+### 45. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the right thing. Enter the Cmd "sudo cat outputs.cong" if you'd like to verify it's saved.
+
+
+### 46. Log into Splunk Enterprise interface on your browser.
 
 
 
-### 43. on the top navigation bar, click "Settings" and then "Add Data" on the top left.
+### 47. on the top navigation bar, click "Settings" and then "Add Data" on the top left.
 
 ![image](https://github.com/user-attachments/assets/a3b14f4a-d85e-4159-8039-f6f75037aa9f)
 
@@ -288,7 +339,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 44. On the bottom right, click "Forward".
+### 48. On the bottom right, click "Forward".
 
 ![image](https://github.com/user-attachments/assets/f1dd7838-b7ad-4b7b-b1c1-389b549e3b38)
 
@@ -298,7 +349,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 45. Click on your available host under "Available host(s) to move it to "selected host(s). 
+### 49. Click on your available host under "Available host(s) to move it to "selected host(s). 
 
 ![image](https://github.com/user-attachments/assets/488d4dee-6e64-499b-9835-342717613689)
 
@@ -306,7 +357,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-#### 46. Enter 'New Server Class Name" in the text box and then click "Next" in the top right.
+#### 50. Enter 'New Server Class Name" in the text box and then click "Next" in the top right.
 
 ![image](https://github.com/user-attachments/assets/dc80e486-775d-4ef0-bd5b-97bd3d70603e)
 
@@ -316,7 +367,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 47. If you not see "Local Event Logs" (see screenshot) as an option on the your list follow steps 48-51(permissions is required to view Local Event Logs). If you do see "Local Event Logs" continue with step 52. 
+### 51. If you not see "Local Event Logs" (see screenshot) as an option on the your list follow steps 48-51(permissions is required to view Local Event Logs). If you do see "Local Event Logs" continue with step 52. 
 
 ![image](https://github.com/user-attachments/assets/47f13ddd-8b26-49b0-bb1e-3a3a0009e60f)
 
@@ -324,7 +375,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 48. On the top of the navigation bar click "Settings", underneath "Users And Authentication" click "Users". 
+### 52. On the top of the navigation bar click "Settings", underneath "Users And Authentication" click "Users". 
 
 ![image](https://github.com/user-attachments/assets/3bd4753e-1c11-4c40-a2ee-487905d493ea)
 
@@ -334,14 +385,14 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 49. click on your name to add permissions.
+### 53. click on your name to add permissions.
 
 ![image](https://github.com/user-attachments/assets/79566248-c432-44d5-a58c-9b3f98c67d77)
 
 
 
 
-### 50. Next to "Assign roles" click all items under "Available item(s)" to move 
+### 54. Next to "Assign roles" click all items under "Available item(s)" to move 
     over to "Selected item(s). All items should be under "Selected Items"
     Click "Edit after changes are made"
 
@@ -353,7 +404,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 51. on the top navigation bar, click "Settings" and then "Add Data" on the top 
+### 55. on the top navigation bar, click "Settings" and then "Add Data" on the top 
     left.
 
 ![image](https://github.com/user-attachments/assets/a3b14f4a-d85e-4159-8039-f6f75037aa9f)
@@ -362,20 +413,20 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 52. On the bottom right, click "Forward".
+### 56. On the bottom right, click "Forward".
 
 ![image](https://github.com/user-attachments/assets/f1dd7838-b7ad-4b7b-b1c1-389b549e3b38)
 
 
 
 
-### 53. Click on "Existing".
+### 57. Click on "Existing".
 
 ![image](https://github.com/user-attachments/assets/ad72eaf1-f3db-4eda-b0d5-0436b44315e8)
 
 
 
-### 54. Under "Existing" Select your "Server Class" you created previously.
+### 58. Under "Existing" Select your "Server Class" you created previously.
     Click "Next" on the top right after selection in made.
 
 ![image](https://github.com/user-attachments/assets/51e30828-c6e7-47a0-b21f-361085c96bac)
@@ -385,7 +436,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 55. Click "Local Event Logs", then click all event logs under "Available 
+### 59. Click "Local Event Logs", then click all event logs under "Available 
     item(s)" to move over to "Selected item(s)" 
     *Items to select: Application, ForwardedEvents, Security, Setup, System*
      Click "Next" on the top right.
@@ -399,8 +450,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-
-### 56. Select the Index you created under "Default".
+### 60. Select the Index you created under "Default".
     Click "wineventlog"
     Click "Review" on the top right.
 
@@ -410,7 +460,7 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 57. Click "Submit" after you've reviewed your selections. 
+### 61. Click "Submit" after you've reviewed your selections. 
    
 ![image](https://github.com/user-attachments/assets/2b121b5d-84f8-4e40-ad3e-f1a77c2189f5)
 
@@ -418,6 +468,6 @@ Enter "ip a" or "ipconfig" to view IP
 
 
 
-### 58.  After configuring the log forwarding settings, click 'Start Searching'
+### 62.  After configuring the log forwarding settings, click 'Start Searching'
 
 ![image](https://github.com/user-attachments/assets/f4419e3f-951c-4f4c-8566-e066648f07cd)
