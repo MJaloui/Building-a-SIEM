@@ -370,7 +370,7 @@ sudo /opt/splunkforwarder/bin/splunk restart
 
 
 
-### 47. on the top navigation bar, click "Settings" and then "Add Data" on the top left.
+### 47. Navigate back to Splunk in your browser. In the top navigation bar, click "Settings", and then click "Add Data" on the top left-hand side.
 
 ![image](https://github.com/user-attachments/assets/a3b14f4a-d85e-4159-8039-f6f75037aa9f)
 
