@@ -45,9 +45,28 @@
 
 
 ### 10. Enter the command "sudo apt-get update" to ensure you have the latest package.
-11. Enter the command "apt-get install curl" to be able to be able to install deb. package.
-12. Copy the ".deb" file to download the package.
-13. Enter this command in the VM "sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb" (the .deb file you have on your vm).
+
+```bash
+sudo apt-get update
+```
+
+### 11. Enter the command "apt-get install curl" to be able to be able to install deb. package.
+
+```bash
+apt-get install curl
+```
+
+### 12. Enter cmd "ls" to view and Copy the ".deb" file to download the package.
+
+![image](https://github.com/user-attachments/assets/02a6f1a9-4c77-4527-828a-85595dd5ce8d)
+
+
+
+### 13. Enter the downlaod package command along with the copied .deb file in your VM to download the package.
+
+ ```bash
+sudo dpkg -i splunk-9.3.1-0b8d769cb912-linux-2.6-amd64.deb
+```
 
 ![image](https://github.com/user-attachments/assets/fe18dfcd-cd23-4896-a207-57e78be5c856)
 
@@ -55,8 +74,9 @@
 
 
 ### 14. Enter the command to enable start at boot.
-### 15. This will also prompt the Splunk license agreement .
-### 16. Enter "y" to agree
+
+ - This will also prompt the Splunk license agreement .
+ - Enter "y" to agree
 
 ![image](https://github.com/user-attachments/assets/e8b46275-a67c-4998-bb5e-85cb35c83320)
 
@@ -66,7 +86,7 @@
 
 
 
-### 17. select username and password to log in Splunk Enterprise from the browser.
+### 15. select username and password to log in Splunk Enterprise from the browser.
 
 ![image](https://github.com/user-attachments/assets/a4c236f7-141f-4d34-94ec-0e609c8c813e)
 
@@ -76,7 +96,7 @@
 
 
 
-### 18. Enter command to allow SSH port on firewall.
+### 16. Enter command to allow SSH port on firewall.
     (If "sudo ufw alow openSSH" doesn't work then try "sudo ufw allow 22/tcp")
 
 ![image](https://github.com/user-attachments/assets/4d707e8b-c57d-48d3-958c-c22ac6375af9)
@@ -84,7 +104,7 @@
 
 
 
-### 19. Enter command to allow port 8000 on firewall.
+### 17. Enter command to allow port 8000 on firewall.
 
 ![image](https://github.com/user-attachments/assets/054e0b6c-0da1-4d95-928a-60c6440d12aa)
 
