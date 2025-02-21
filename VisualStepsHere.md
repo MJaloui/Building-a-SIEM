@@ -329,7 +329,7 @@ index = network_data
 sudo nano outputs.conf
 ```
 
-## Copy and paste configuration in outputs.conf file you created.
+## Copy and paste configuration in outputs.conf file you created. Add your Ip address and port number for your indexer.
 
 ```bash
 Enter the following script, then save and exit
@@ -337,10 +337,11 @@ Enter the following script, then save and exit
 defaultGroup = splunk_indexer
 
 [tcpout:splunk_indexer]
-server = <indexer-ip>:9998
+server = <IP_Address>:<Port_Number>
 ```
 
-![image](https://github.com/user-attachments/assets/3cbd8a5f-57c3-4d40-8b28-e33d9ad6e2ef)
+![image](https://github.com/user-attachments/assets/24bd5aae-1964-457f-b5d1-e29356873981)
+
 
 
 
