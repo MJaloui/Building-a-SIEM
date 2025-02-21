@@ -329,7 +329,7 @@ index = network_data
 sudo nano outputs.conf
 ```
 
-## Copy and paster configuration
+## Copy and paste configuration in outputs.conf file you created.
 
 ```bash
 Enter the following script, then save and exit
@@ -345,6 +345,25 @@ server = <indexer-ip>:9998
 
 
 ### 45. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the right thing. Enter the Cmd "sudo cat outputs.cong" if you'd like to verify it's saved.
+
+
+### 46. After saving the configuration files, enter the "stop" and "restart" Splunk command to update the settings.
+
+```bash
+sudo /opt/splunkforwarder/bin/splunk stop
+```
+
+![image](https://github.com/user-attachments/assets/728e1f91-a7e0-4d6e-a1d5-9e74568aa77e)
+
+ - Enter Cmd to restart
+
+```bash
+sudo /opt/splunkforwarder/bin/splunk restart
+```
+
+![image](https://github.com/user-attachments/assets/adea019a-afc6-48d9-96f6-7af195a073ab)
+
+
 
 
 ### 46. Log into Splunk Enterprise interface on your browser.
