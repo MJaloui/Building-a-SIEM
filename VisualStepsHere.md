@@ -10,7 +10,7 @@
 
 ## **Steps:**
 
-### 1.	Head to splunk.com
+### 1.	Head to www.splunk.com
 ### 2.	Click “products” above
 ### 3.	Underneath “Platform” click “Splunk Enterprise”
 ### 4.	Click “Free Trial” underneath Splunk Enterprise.
