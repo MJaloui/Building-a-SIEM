@@ -511,3 +511,25 @@ sudo /opt/splunkforwarder/bin/splunk restart
 ### 62.  After configuring the log forwarding settings, click 'Start Searching'
 
 ![image](https://github.com/user-attachments/assets/f4419e3f-951c-4f4c-8566-e066648f07cd)
+
+
+
+### 63. Navigate to "Settings" on the top and click "Indexes" under "Data" to verify logs are generating in the Index you created.
+
+![image](https://github.com/user-attachments/assets/ced6d1d0-a8c2-4ed1-a8f4-afe279f144b4)
+
+
+
+### 64. You will notice the amount on data is a higher number than before. Notice my index that was created is now 15 MB, it was originally 1 MB.
+
+
+ - ## Before
+ 
+ ![image](https://github.com/user-attachments/assets/1e739324-42f8-4b2f-9c96-19630f5f5ab2)
+
+ 
+ 
+ - ## After
+
+![image](https://github.com/user-attachments/assets/9f889bd0-dda4-4d5f-91b5-61a848e499cd)
+
