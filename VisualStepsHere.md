@@ -533,3 +533,25 @@ sudo /opt/splunkforwarder/bin/splunk restart
 
 ![image](https://github.com/user-attachments/assets/9f889bd0-dda4-4d5f-91b5-61a848e499cd)
 
+
+
+### 65. Navigate to home the page and click "Search & Reporting" or "Find" on the top taskabar to search the index you created and the new generated logs. 
+
+
+  - ## On the search page, enter this query below to generate logs from the index you've created.
+
+```bash
+index='Your_Index_Name'
+```
+
+![image](https://github.com/user-attachments/assets/cae29992-a08a-49e9-9ed3-6031487d175e)
+
+
+### 66. After entering the query, the data will be visable as shown below.
+
+![image](https://github.com/user-attachments/assets/a834ce0e-4130-4c53-a05c-5bfadc3f831c)
+
+
+
+
+
