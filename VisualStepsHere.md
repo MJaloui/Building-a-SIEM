@@ -310,15 +310,10 @@ sudo nano /opt/splunkforwarder/etc/system/local/inputs.conf
 disabled = false
 index = main
 sourcetype = syslog
-
-# listen for incoming TCP data on port 9998
-[tcp://9998]
-disabled = false
-sourcetype = _json
-index = network_data
 ```
 
-![image](https://github.com/user-attachments/assets/9b1d186b-6d92-43c4-90a2-db73d732f71b)
+![image](https://github.com/user-attachments/assets/1e382d53-dc04-4608-bad7-0ac0bbabf544)
+
 
 
 ### 44. Create and edit output.conf. Copy and paste the configuration below.
@@ -329,10 +324,9 @@ index = network_data
 sudo nano outputs.conf
 ```
 
-## Copy and paste configuration in outputs.conf file you created. Add your Ip address and port number for your indexer.
+## Copy and paste configuration in outputs.conf file you created. Add your Ip address and port number for your indexer. Then exit and save it.
 
 ```bash
-Enter the following script, then save and exit
 [tcpout]
 defaultGroup = splunk_indexer
 
@@ -352,7 +346,7 @@ server = <IP_Address>:<Port_Number>
 
 ```bash
 sudo /opt/splunkforwarder/bin/splunk stop
-```
+```       
 
 ![image](https://github.com/user-attachments/assets/728e1f91-a7e0-4d6e-a1d5-9e74568aa77e)
 
@@ -548,6 +542,86 @@ index='Your_Index_Name'
 
 
 ### 66. After entering the query, the data will be visable as shown below.
+
+ - You should see atleast one or mulitple events if you verfied that your index storage is a higher amount. The log below is one example of one event in the index I created.
+
+![image](https://github.com/user-attachments/assets/9b45512a-8284-4002-8dc6-48fc3bbc0ef2)
+
+
+
+### 67. Finally, test a crendtial scan using nmap in a network traffic index inside a Docker container. You will need to:
+
+ - Create a new index for network traffric
+ - Install Nmap (if you don't have this tool)
+ - Install Docker (if you don't have this tool)
+
+
+
+### 68. Click "Settings" and under "Data" click "Indexes"
+
+![image](https://github.com/user-attachments/assets/0921d5fb-42a5-4e2e-a7f0-4104fbc416f0)
+
+![image](https://github.com/user-attachments/assets/3f08966e-81e3-4432-a395-d1e9031f6202)
+
+
+
+
+
+### 69. On the top right, click the green button "New Index"
+
+ ![image](https://github.com/user-attachments/assets/0e29c4b8-8514-41d8-8a94-ba821f974085)
+   
+![image](https://github.com/user-attachments/assets/44a761ba-861c-4a89-9bcc-b80f30b0a264)
+
+
+
+
+
+### 70. In the "Index Name" field, enter in the text box "network_data" (or any name 
+    you want to name it).
+
+
+
+### 71. Click "Save" and verify your network data index was created.
+
+![image](https://github.com/user-attachments/assets/880c2b11-dfc6-4373-944a-f59e23e7a18f)
+
+
+
+### 72. Navigate back to your virtual machine and go to the local directory and open inputs.conf file to edit network_data configuration.
+
+```bash
+cd /opt/splunkforwarder/etc/system/local
+```
+
+```bash
+nano inputs.conf
+```
+
+![image](https://github.com/user-attachments/assets/9a738041-a2ad-4894-9c2e-22784a200c77)
+
+![image](https://github.com/user-attachments/assets/49a18acc-debb-4ddf-bef7-774ab3b0abb2)
+
+Paste the the last five lines of the script, the whole script should look similar to the screen shot below/
+
+```bash
+[monitor:///var/log/syslog]
+disabled = false
+index = main
+sourcetype = syslog
+
+# listen for incoming TCP data on port 9998
+[tcp://9998]
+disabled = false
+sourcetype = _json
+index = network_data
+```
+
+![image](https://github.com/user-attachments/assets/2eb1106c-821e-4f89-956c-112df27ded6c)
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/a834ce0e-4130-4c53-a05c-5bfadc3f831c)
 
