@@ -649,12 +649,12 @@ docker --version
 
 ![image](https://github.com/user-attachments/assets/950ea5d6-686b-406c-b7c3-6888bdc8a44d)
 
- - ## If you don't have docker, enter the apt install command.
+ - ## If you don't have docker, watch this quick video to install docker or go to www.docker.com and follow the direction to download docker.
 
 ```bash
-sudo apt install nmap
+https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH
 ```
-
+https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH
 
 
 
