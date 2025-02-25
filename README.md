@@ -77,7 +77,6 @@
 
 6. **Test your SIEM system** by simulating a credential scan using **Nmap** with **Docker**.
 
-7. Continuously refine your **SIEM system** to improve threat detection and reduce false positives.
 
 ---
 
