@@ -303,7 +303,7 @@ sudo nano /opt/splunkforwarder/etc/system/local/inputs.conf
 
 ### 43. Copy the configuration below and paste it in the inputs.conf file, On your keyboard press "^X" (ctrl+x) to exit, then press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the right thing.
 
-## After saving this file, you can enter the command "sudo cat inputs.conf" command to verify it was saved.
+### After saving this file, you can enter the command "sudo cat inputs.conf" command to verify it was saved.
 
 ```bash
 [monitor:///var/log/syslog]
@@ -318,7 +318,7 @@ sourcetype = syslog
 
 ### 44. Create and edit output.conf. Copy and paste the configuration below.
 
-## Enter Cmd: 
+### Enter Cmd: 
 
 ```bash
 sudo nano outputs.conf
@@ -517,13 +517,13 @@ sudo /opt/splunkforwarder/bin/splunk restart
 ### 64. You will notice the amount on data is a higher number than before. Notice my index that was created is now 15 MB, it was originally 1 MB.
 
 
- - ## Before
+ - ### Before
  
  ![image](https://github.com/user-attachments/assets/1e739324-42f8-4b2f-9c96-19630f5f5ab2)
 
  
  
- - ## After
+ - ### After
 
 ![image](https://github.com/user-attachments/assets/9f889bd0-dda4-4d5f-91b5-61a848e499cd)
 
@@ -532,7 +532,7 @@ sudo /opt/splunkforwarder/bin/splunk restart
 ### 65. Navigate to home the page and click "Search & Reporting" or "Find" on the top taskabar to search the index you created and the new generated logs. 
 
 
-  - ## On the search page, enter this query below to generate logs from the index you've created.
+  - ### On the search page, enter this query below to generate logs from the index you've created.
 
 ```bash
 index='Your_Index_Name'
@@ -607,7 +607,7 @@ nano inputs.conf
 
 ### 73. Paste the the last five lines of the script, the whole script should look similar to the screen shot below. 
 
- - ## On your keyboard press "^X" (ctrl+x) to exit, then press "Y" to save the file, press "Enter" to confirm the file name.
+ - ### On your keyboard press "^X" (ctrl+x) to exit, then press "Y" to save the file, press "Enter" to confirm the file name.
 
 ```bash
 [monitor:///var/log/syslog]
@@ -627,13 +627,13 @@ index = network_data
 
 ### 74. Install nmap if you do not have this tool. 
 
- - ## Verify if you have nmap. If no version is shown, then you do not have it.
+ - ### Verify if you have nmap. If no version is shown, then you do not have it.
 
 ```bash
 nmap --version
 ```
 
- - ## If you don't have namp, enter the apt install command.
+ - ### If you don't have namp, enter the apt install command.
 
 ```bash
 sudo apt install nmap
@@ -649,9 +649,9 @@ docker --version
 
 ![image](https://github.com/user-attachments/assets/950ea5d6-686b-406c-b7c3-6888bdc8a44d)
 
- - ## If you don't have docker, watch this quick video below to install docker or go to www.docker.com and follow the direction to download docker.
+ - ### If you don't have docker, watch this quick video below to install docker or go to www.docker.com and follow the direction to download docker.
 
-- ## [Click here to learn how to install Docker.](https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH)
+- ### [Click here to learn how to install Docker.](https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH)
 
 
 ### 76. Download the Nmap Docker image to your Virtual Machine.
@@ -690,9 +690,9 @@ index=wineventlog
 
 ### 79. There will be new generated logs for credential scans. 
 
- - ## You can also click "Show all 21 lines" to view more details. 
+ - ### You can also click "Show all 21 lines" to view more details. 
 
-- ## The "EventCode" listed on the log can be searched directly in splunk for more details, you can use Google or Chaptgpt to find general information as well.
+- ### The "EventCode" listed on the log can be searched directly in splunk for more details, you can use Google or Chaptgpt to find general information as well.
 
 
 ![image](https://github.com/user-attachments/assets/11cda3d7-3b47-4220-a2f0-de990f94eff7)
@@ -701,13 +701,13 @@ index=wineventlog
 
 ### 80. Key indicators and ways to identify a credential scan occured.
 
- - ## "Message": will indicate Credentials Manager were read.
+ - ### "Message": will indicate Credentials Manager were read.
    
- - ## "Read Operation": If it shows "Enumerate Credentials", it's suggesting there are signs of someone possibly attemping to obtain usernames and passwords or there's a security scan.
+ - ### "Read Operation": If it shows "Enumerate Credentials", it's suggesting there are signs of someone possibly attemping to obtain usernames and passwords or there's a security scan.
  
- - ## Before line 21, you will recieve a brief explantion to why that particular event occured.
+ - ### Before line 21, you will recieve a brief explantion to why that particular event occured.
 
- - ## You can research specific keywords to find related logs. For example, adding "Audit Success" to your query will generate more logs similar to the current one. This can be found on your logs  next to "Keywords"
+ - ### You can research specific keywords to find related logs. For example, adding "Audit Success" to your query will generate more logs similar to the current one. This can be found on your logs  next to "Keywords"
       
 ![image](https://github.com/user-attachments/assets/088f8079-ffef-48b5-9042-57d4e58c01ae)
 
