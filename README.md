@@ -77,18 +77,6 @@
 
 6. **Test your SIEM system** by simulating a credential scan using **Nmap** with **Docker**.
 
-   - First, pull the **Nmap Docker image**:
-     ```bash
-     docker pull instrumentisto/nmap
-     ```
-
-   - Run a **SYN scan** to check for open ports and services, simulating a potential credential scan:
-     ```bash
-     docker run --rm --network host instrumentisto/nmap -sS <target_ip>
-     ```
-
-   - Collect logs generated during this test to see how the SIEM reacts and if alerts are triggered.
-
 7. Continuously refine your **SIEM system** to improve threat detection and reduce false positives.
 
 ---
