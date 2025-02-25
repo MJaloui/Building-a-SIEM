@@ -1,5 +1,7 @@
 # Building a SIEM 🔍 (In Progress)
-![image](https://github.com/user-attachments/assets/c61dd22f-7bfe-4b7e-8208-bb224459bd6f)  *(Replace with an image relevant to your SIEM project)*
+
+![image](https://github.com/user-attachments/assets/15d45e03-7a5f-416d-a0bd-37b646fc0cab)
+
 
 ---
 
