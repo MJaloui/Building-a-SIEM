@@ -677,29 +677,40 @@ docker run --rm --network host instrumentisto/nmap -sS <target_ip>
 
 ### 78. Verify the scan was a success. Check your index logs in Splunk for recent updates, You will see a credential scan. Enter search query to find the latest scan.
 
+
+
 ```bash
 index=wineventlog
 ```
 
 ![image](https://github.com/user-attachments/assets/71430e76-7ea0-4b52-938f-1fe425f8bf8e)
 
-![image](https://github.com/user-attachments/assets/e076dab8-346c-4df1-acac-af681953e702)
 
 
 
-### 79. There will be some new generated logs for credential scans. The "EventCode" listed on the log can be searched for more details.
+### 79. There will be new generated logs for credential scans. 
+
+ - ## You can also click "Show all 21 lines" to view more details. 
+
+- ## The "EventCode" listed on the log can be searched directly in splunk for more details, you can use Google or Chaptgpt to find general information as well.
+
+
+![image](https://github.com/user-attachments/assets/11cda3d7-3b47-4220-a2f0-de990f94eff7)
 
  
 
+### 80. Key indicators and ways to identify a credential scan occured.
 
+ - ## "Message": will indicate Credentials Manager were read.
+   
+ - ## "Read Operation": If it shows "Enumerate Credentials", it's suggesting there are signs of someone possibly attemping to obtain usernames and passwords or there's a security scan.
+ 
+ - ## Before line 21, you will recieve a brief explantion to why that particular event occured.
 
+ - ## You can research specific keywords to find related logs. For example, adding "Audit Success" to your query will generate more logs similar to the current one. This can be found on your logs  next to "Keywords"
+      
+![image](https://github.com/user-attachments/assets/088f8079-ffef-48b5-9042-57d4e58c01ae)
 
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/f212c78b-db5a-4b1e-ba5d-634afe31d59e)
 
 
 
