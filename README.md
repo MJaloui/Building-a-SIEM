@@ -1,4 +1,4 @@
-# Building a SIEM 🔍 (In Progress)
+# Building a SIEM 🔍 
 
 ![image](https://github.com/user-attachments/assets/15d45e03-7a5f-416d-a0bd-37b646fc0cab)
 
