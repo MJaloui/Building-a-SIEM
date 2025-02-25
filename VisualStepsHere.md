@@ -649,12 +649,47 @@ docker --version
 
 ![image](https://github.com/user-attachments/assets/950ea5d6-686b-406c-b7c3-6888bdc8a44d)
 
- - ## If you don't have docker, watch this quick video to install docker or go to www.docker.com and follow the direction to download docker.
+ - ## If you don't have docker, watch this quick video below to install docker or go to www.docker.com and follow the direction to download docker.
+
+- ## [Click here to learn how to install Docker.](https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH)
+
+
+### 76. Download the Nmap Docker image to your Virtual Machine.
 
 ```bash
-https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH
+sudo docker pull instrumentisto/nmap
 ```
-https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH
+![image](https://github.com/user-attachments/assets/1d489ad4-4e50-4467-a5c7-4e8d6c61b52d)
+
+
+### 77. After pulling the Nmap Docker image, you can run a SYN scan on the target IP (your IP address) by executing the following command:
+
+ ## - Replace <target_ip> with the IP address of the system running Splunk.
+
+```bash
+docker run --rm --network host instrumentisto/nmap -sS <target_ip>
+```
+
+![image](https://github.com/user-attachments/assets/1547475c-bf2f-49da-a532-530951d67437)
+
+
+
+
+### 78. Verify the scan was a success. Check your index logs in Splunk for recent updates, You will see a credential scan. Enter search query to find the latest scan.
+
+```bash
+index=wineventlog
+```
+
+![image](https://github.com/user-attachments/assets/71430e76-7ea0-4b52-938f-1fe425f8bf8e)
+
+![image](https://github.com/user-attachments/assets/e076dab8-346c-4df1-acac-af681953e702)
+
+
+
+### 79. There will be some new generated logs for credential scans. The "EventCode" listed on the log can be searched for more details.
+
+ 
 
 
 
@@ -664,16 +699,8 @@ https://youtu.be/cqbh-RneBlk?si=Wg7GHXnyzsOrAzMH
 
 
 
+![image](https://github.com/user-attachments/assets/f212c78b-db5a-4b1e-ba5d-634afe31d59e)
 
-
-
-
-
-
-
-
-### 
-![image](https://github.com/user-attachments/assets/a834ce0e-4130-4c53-a05c-5bfadc3f831c)
 
 
 
