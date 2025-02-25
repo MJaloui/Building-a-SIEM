@@ -602,7 +602,12 @@ nano inputs.conf
 
 ![image](https://github.com/user-attachments/assets/49a18acc-debb-4ddf-bef7-774ab3b0abb2)
 
-Paste the the last five lines of the script, the whole script should look similar to the screen shot below/
+
+
+
+### 73. Paste the the last five lines of the script, the whole script should look similar to the screen shot below. 
+
+ - ## On your keyboard press "^X" (ctrl+x) to exit, then press "Y" to save the file, press "Enter" to confirm the file name.
 
 ```bash
 [monitor:///var/log/syslog]
@@ -620,10 +625,57 @@ index = network_data
 ![image](https://github.com/user-attachments/assets/2eb1106c-821e-4f89-956c-112df27ded6c)
 
 
+### 74. Install nmap if you do not have this tool. 
+
+ - ## Verify if you have nmap. If no version is shown, then you do not have it.
+
+```bash
+nmap --version
+```
+
+ - ## If you don't have namp, enter the apt install command.
+
+```bash
+sudo apt install nmap
+```
 
 
 
+### 75. Verify if you have Docker. If no version is shown, then you don't have it.
+
+```bash
+docker --version
+```
+
+![image](https://github.com/user-attachments/assets/950ea5d6-686b-406c-b7c3-6888bdc8a44d)
+
+ - ## If you don't have docker, enter the apt install command.
+
+```bash
+sudo apt install nmap
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 
 ![image](https://github.com/user-attachments/assets/a834ce0e-4130-4c53-a05c-5bfadc3f831c)
+
+
 
 
 
